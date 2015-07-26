@@ -1,3 +1,4 @@
-def parrot(a="Squawk!", b="Pretty bird!")
-  puts "#{a}"  
-   end
+def parrot(phrase = "Squawk!")
+  puts phrase
+  phrase
+end
